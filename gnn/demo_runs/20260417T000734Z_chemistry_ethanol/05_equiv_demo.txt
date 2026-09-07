@@ -1,0 +1,25 @@
+================================================================
+  INFERENCE EQUIVALENCE DEMO
+  Proving: F̃(c, G, ω) is referentially transparent
+================================================================
+  Commit : bdab3b4e0e51888d
+  Graph  : ethanol
+  Seed   : 42
+
+[Run 1]
+  predicted_class = 1
+  probs           = [0.08250237, 0.91749758]
+  logits          = [-1.39682889, 1.01199412]
+
+[Run 2]  (identical commit + graph + seed)
+  predicted_class = 1
+  probs           = [0.08250237, 0.91749758]
+  logits          = [-1.39682889, 1.01199412]
+
+================================================================
+  ✓ logits identical : True
+  ✓ probs  identical : True
+
+  Theorem 9 confirmed: F̃(c, G, ω) = F(π(c), G, ω)
+  Same (commit, graph, seed) always yields identical output.
+================================================================

@@ -1,0 +1,10 @@
+[train] 11 graphs | in_dim=13 | classes=2 | epochs=30 | lr=0.01 | commit-every=10 | seed=42
+  epoch   5 | loss=0.6482 | acc=63.6%
+  epoch  10 | loss=0.5144 | acc=81.8% | commit=6ae1f0a07503ec72
+  epoch  15 | loss=0.3806 | acc=81.8%
+  epoch  20 | loss=0.2846 | acc=90.9% | commit=75dab3803c535e39
+  epoch  25 | loss=0.1972 | acc=90.9%
+  epoch  30 | loss=0.1474 | acc=90.9% | commit=514aea2236f6cab7
+
+[train] Done. 3 commits created.
+[train] HEAD = 514aea2236f6cab7

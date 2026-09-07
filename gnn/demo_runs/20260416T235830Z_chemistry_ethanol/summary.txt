@@ -1,0 +1,17 @@
+Functor GNN / mQSAR demo run
+============================
+Run ID: 20260416T235830Z_chemistry_ethanol
+Dataset: chemistry
+Graph: ethanol
+Epochs: 30
+Commit every: 10
+Seed: 42
+Output directory: demo_runs/20260416T235830Z_chemistry_ethanol
+
+Expected reviewer flow
+----------------------
+1. Read run.log for the full execution trace.
+2. Inspect 03_commits.txt for versioned commit history.
+3. Inspect 04_infer.txt for baseline inference output.
+4. Inspect 05_equiv_demo.txt for equivalence behavior.
+5. Inspect 06_rollback_demo.txt for reversibility / rollback behavior.

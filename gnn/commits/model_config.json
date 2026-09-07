@@ -1,0 +1,6 @@
+{
+  "in_dim": 10,
+  "hidden_dim": 32,
+  "num_classes": 1,
+  "num_layers": 2
+}

@@ -1,0 +1,26 @@
+================================================================
+  INFERENCE EQUIVALENCE DEMO
+  Demonstrates bit-exact deterministic replay under fixed (commit, graph, seed).
+  Projection context: identity/default.
+================================================================
+  Commit : 0e365075621216a2
+  Graph  : ethanol
+  Seed   : 42
+
+[Run 1]
+  predicted_class = 1
+  probs           = [0.0097995, 0.99020046]
+  logits          = [-2.22089338, 2.39468241]
+
+[Run 2]  (identical commit + graph + seed)
+  predicted_class = 1
+  probs           = [0.0097995, 0.99020046]
+  logits          = [-2.22089338, 2.39468241]
+
+================================================================
+  ✓ logits identical : True
+  ✓ probs  identical : True
+
+  Same (commit, graph, seed) yielded identical output in this replay.
+  Identity projection only; projection-equivalence content is not exercised here.
+================================================================

@@ -1,0 +1,24 @@
+
+[infer] Result:
+{
+  "run_id": "0eeac7a7",
+  "commit_id": "1454565a509f6de5",
+  "seed": 42,
+  "graph_id": "ethanol",
+  "task": "contains_hetero_atom",
+  "projection_id": "default",
+  "projection_description": null,
+  "assay_context": null,
+  "projection_feature_weights_hash": null,
+  "projection_response": 0.3805983,
+  "timestamp": "2026-09-07T07:08:21.531344+00:00",
+  "predicted_class": 1,
+  "probs": [
+    0.04565828,
+    0.95434165
+  ],
+  "logits": [
+    -1.71294928,
+    1.32688749
+  ]
+}

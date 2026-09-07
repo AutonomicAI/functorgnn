@@ -1,0 +1,28 @@
+================================================================
+  ROLLBACK DEMO
+================================================================
+  Graph  : ethanol  |  Seed : 42
+  Commits: 36 total
+  First  : 283c70247443d232  (epoch 10)
+  Last   : 4862945afe6ac5b8   (epoch 30)
+
+[1/4]  Inference under LAST commit (most-trained model)
+       class=1  probs=[0.04399853, 0.95600146]
+
+[2/4]  Rollback → FIRST commit (early, undertrained model)
+       class=1  probs=[0.303377, 0.69662291]
+
+[3/4]  Replay FIRST commit (reproducibility check)
+       class=1  probs=[0.303377, 0.69662291]
+
+[4/4]  Re-run LAST commit (reproducibility check)
+       class=1  probs=[0.04399853, 0.95600146]
+
+================================================================
+  ✓ First commit reproducible  (run1 == run2) : True
+  ✓ Last  commit reproducible  (run1 == run2) : True
+  ✓ First ≠ Last (distinct model state)       : True
+
+  Theorem 9: F̃(c, G, ω) = S(π(c), G, ω)
+  Any commit can be replayed exactly — rollback is lossless.
+================================================================

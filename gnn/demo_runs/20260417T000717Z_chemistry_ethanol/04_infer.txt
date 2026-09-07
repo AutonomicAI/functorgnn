@@ -1,0 +1,18 @@
+
+[infer] Result:
+{
+  "run_id": "3d42e979",
+  "commit_id": "dc28e9a568030f04",
+  "seed": 42,
+  "graph_id": "ethanol",
+  "predicted_class": 1,
+  "probs": [
+    0.13434954,
+    0.86565042
+  ],
+  "logits": [
+    -0.92280364,
+    0.94023263
+  ],
+  "timestamp": "2026-04-17T00:07:23.327311+00:00"
+}

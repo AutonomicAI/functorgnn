@@ -1,0 +1,33 @@
+========================================================================
+  PROJECTION-EQUIVALENCE DEMO
+  Demonstrates F̃(c,G,ω) = F(π(c),G,ω) for an exercised non-identity projection.
+========================================================================
+  Commit     : 0e365075621216a2
+  Seed       : 42
+  Projection : assay_hydrogen_blind
+  Feature-weight hash (non-null): 24a62b59e2bff4ff
+
+[Positive control: distinct raw inputs collapse to one canonical projection]
+  G1 raw id/hash       : ethanol__raw_A / 5eb756a6a5672185
+  G2 raw id/hash       : ethanol__raw_B_collapsed_feature / 59b9652ec135aa64
+  G1 != G2             : True
+  π(G1) canonical hash : d596378590e9f0fd
+  π(G2) canonical hash : d596378590e9f0fd
+  π(G1) == π(G2)       : True
+  projection hash set  : True
+  G1 output            : class=1  probs=[2.7e-07, 0.99999976]
+  G2 output            : class=1  probs=[2.7e-07, 0.99999976]
+  outputs identical    : True
+
+[Negative control: distinct projection gives distinct output]
+  G3 raw id/hash       : methane / 0c6259baefb9fcd4
+  π(G3) canonical hash : 43af7f9386961f30
+  π(G1) != π(G3)       : True
+  G3 output            : class=1  probs=[0.2177411, 0.78225887]
+  G1 output            : class=1  probs=[2.7e-07, 0.99999976]
+  outputs differ       : True
+
+========================================================================
+  Acceptance checks passed: True
+  Projection equivalence demonstrated for the exercised non-identity projection.
+========================================================================

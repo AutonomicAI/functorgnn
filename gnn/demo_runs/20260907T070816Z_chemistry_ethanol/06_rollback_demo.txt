@@ -1,0 +1,29 @@
+================================================================
+  ROLLBACK DEMO
+================================================================
+  Graph  : ethanol  |  Seed : 42
+  Commits: 48 compatible with current model config
+           (60 total records in commit store)
+  First  : 283c70247443d232  (epoch 10)
+  Last   : 1454565a509f6de5   (epoch 30)
+
+[1/4]  Inference under LAST commit (most-trained model)
+       class=1  probs=[0.04565828, 0.95434165]
+
+[2/4]  Rollback → FIRST commit (early, undertrained model)
+       class=1  probs=[0.303377, 0.69662291]
+
+[3/4]  Replay FIRST commit (reproducibility check)
+       class=1  probs=[0.303377, 0.69662291]
+
+[4/4]  Re-run LAST commit (reproducibility check)
+       class=1  probs=[0.04565828, 0.95434165]
+
+================================================================
+  ✓ First commit reproducible  (run1 == run2) : True
+  ✓ Last  commit reproducible  (run1 == run2) : True
+  ✓ First ≠ Last (distinct model state)       : True
+
+  Rollback is lossless: compatible commits replay bit-exactly.
+  Projection context: identity/default; no non-identity projection theorem is claimed.
+================================================================

@@ -1,0 +1,10 @@
+[train] 11 graphs | in_dim=13 | classes=2 | epochs=30 | lr=0.01 | commit-every=10 | seed=42
+  epoch   5 | loss=0.6131 | acc=72.7%
+  epoch  10 | loss=0.4075 | acc=81.8% | commit=0d173acfa1f943ce
+  epoch  15 | loss=0.2887 | acc=90.9%
+  epoch  20 | loss=0.2055 | acc=90.9% | commit=29b3f2f771b2895b
+  epoch  25 | loss=0.1427 | acc=90.9%
+  epoch  30 | loss=0.0797 | acc=100.0% | commit=bed911defae2ed9a
+
+[train] Done. 3 commits created.
+[train] HEAD = bed911defae2ed9a

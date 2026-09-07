@@ -1,0 +1,28 @@
+Functor GNN reproducibility demo run
+====================================
+Run ID: 20260907T070816Z_chemistry_ethanol
+Dataset: chemistry
+Graph: ethanol
+Epochs: 30
+Commit every: 10
+Seed: 42
+Output directory: demo_runs/20260907T070816Z_chemistry_ethanol
+
+Expected reviewer flow
+----------------------
+1. Read run.log for the full execution trace.
+2. Inspect 03_commits.txt for versioned commit history.
+3. Inspect 04_infer.txt for baseline commit-indexed inference output.
+4. Inspect 05_equiv_demo.txt for deterministic replay under fixed inputs
+   using identity/default projection.
+5. Inspect 06_rollback_demo.txt for reproducible rollback behavior.
+6. Inspect 07_projection_equiv_demo.txt for non-identity projection equivalence
+   with a negative control.
+
+Scope note
+----------
+This run demonstrates commit-indexed reproducibility, deterministic replay, rollback,
+and projection equivalence for a non-identity toy projection. The toy
+contains_hetero_atom and cycle_detection tasks are reproducibility fixtures, not
+benchmarks or chemistry/mQSAR validation; any fixture accuracy printed by low-level
+training logs must not be read as a performance result.

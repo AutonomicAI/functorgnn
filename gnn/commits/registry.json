@@ -1,0 +1,734 @@
+{
+  "head": "2045783cc3c8ee78",
+  "commits": [
+    {
+      "commit_id": "e46b39627d30b106",
+      "parent_id": null,
+      "message": "epoch 10",
+      "timestamp": "2026-04-14T22:20:30.041014+00:00",
+      "metadata": {
+        "epoch": 10,
+        "loss": 0.648378,
+        "acc": 0.85
+      }
+    },
+    {
+      "commit_id": "efe9d67ac21bc6c4",
+      "parent_id": "e46b39627d30b106",
+      "message": "epoch 20",
+      "timestamp": "2026-04-14T22:20:30.089791+00:00",
+      "metadata": {
+        "epoch": 20,
+        "loss": 0.005836,
+        "acc": 1.0
+      }
+    },
+    {
+      "commit_id": "a372e62976e097a8",
+      "parent_id": "efe9d67ac21bc6c4",
+      "message": "epoch 30",
+      "timestamp": "2026-04-14T22:20:30.168850+00:00",
+      "metadata": {
+        "epoch": 30,
+        "loss": 0.001538,
+        "acc": 1.0
+      }
+    },
+    {
+      "commit_id": "4a30e723d91bbc10",
+      "parent_id": "a372e62976e097a8",
+      "message": "epoch 10",
+      "timestamp": "2026-04-14T23:40:24.714916+00:00",
+      "metadata": {
+        "epoch": 10,
+        "loss": 0.695379,
+        "acc": 0.45
+      }
+    },
+    {
+      "commit_id": "c2c7efab4f6e555c",
+      "parent_id": "4a30e723d91bbc10",
+      "message": "epoch 20",
+      "timestamp": "2026-04-14T23:40:24.763284+00:00",
+      "metadata": {
+        "epoch": 20,
+        "loss": 0.003419,
+        "acc": 1.0
+      }
+    },
+    {
+      "commit_id": "3dc4e43a4fff1857",
+      "parent_id": "c2c7efab4f6e555c",
+      "message": "epoch 30",
+      "timestamp": "2026-04-14T23:40:24.819350+00:00",
+      "metadata": {
+        "epoch": 30,
+        "loss": 0.000952,
+        "acc": 1.0
+      }
+    },
+    {
+      "commit_id": "cff8b7cc59cd876e",
+      "parent_id": "3dc4e43a4fff1857",
+      "message": "epoch 10",
+      "timestamp": "2026-04-15T01:21:48.387124+00:00",
+      "metadata": {
+        "epoch": 10,
+        "loss": 0.677065,
+        "acc": 0.5
+      }
+    },
+    {
+      "commit_id": "8286d00c75b57568",
+      "parent_id": "cff8b7cc59cd876e",
+      "message": "epoch 20",
+      "timestamp": "2026-04-15T01:21:48.439355+00:00",
+      "metadata": {
+        "epoch": 20,
+        "loss": 0.001465,
+        "acc": 1.0
+      }
+    },
+    {
+      "commit_id": "478907441d530da6",
+      "parent_id": "8286d00c75b57568",
+      "message": "epoch 30",
+      "timestamp": "2026-04-15T01:21:48.516347+00:00",
+      "metadata": {
+        "epoch": 30,
+        "loss": 0.000393,
+        "acc": 1.0
+      }
+    },
+    {
+      "commit_id": "283c70247443d232",
+      "parent_id": "478907441d530da6",
+      "message": "epoch 10",
+      "timestamp": "2026-04-16T23:31:44.630505+00:00",
+      "metadata": {
+        "epoch": 10,
+        "loss": 0.455766,
+        "acc": 0.818182
+      }
+    },
+    {
+      "commit_id": "ce9503095f497f60",
+      "parent_id": "283c70247443d232",
+      "message": "epoch 20",
+      "timestamp": "2026-04-16T23:31:44.682911+00:00",
+      "metadata": {
+        "epoch": 20,
+        "loss": 0.254651,
+        "acc": 0.909091
+      }
+    },
+    {
+      "commit_id": "1e2c7cfcf66f7a8b",
+      "parent_id": "ce9503095f497f60",
+      "message": "epoch 30",
+      "timestamp": "2026-04-16T23:31:44.719736+00:00",
+      "metadata": {
+        "epoch": 30,
+        "loss": 0.144028,
+        "acc": 0.909091
+      }
+    },
+    {
+      "commit_id": "e094c65379425741",
+      "parent_id": "1e2c7cfcf66f7a8b",
+      "message": "epoch 10",
+      "timestamp": "2026-04-16T23:35:03.479549+00:00",
+      "metadata": {
+        "epoch": 10,
+        "loss": 0.408454,
+        "acc": 0.818182
+      }
+    },
+    {
+      "commit_id": "838aaaf61383d811",
+      "parent_id": "e094c65379425741",
+      "message": "epoch 20",
+      "timestamp": "2026-04-16T23:35:03.514169+00:00",
+      "metadata": {
+        "epoch": 20,
+        "loss": 0.187415,
+        "acc": 0.909091
+      }
+    },
+    {
+      "commit_id": "19d44c662d82c78c",
+      "parent_id": "838aaaf61383d811",
+      "message": "epoch 30",
+      "timestamp": "2026-04-16T23:35:03.558838+00:00",
+      "metadata": {
+        "epoch": 30,
+        "loss": 0.041191,
+        "acc": 1.0
+      }
+    },
+    {
+      "commit_id": "128b06ec14785060",
+      "parent_id": "19d44c662d82c78c",
+      "message": "epoch 10",
+      "timestamp": "2026-04-16T23:44:15.373155+00:00",
+      "metadata": {
+        "epoch": 10,
+        "loss": 0.382149,
+        "acc": 0.818182
+      }
+    },
+    {
+      "commit_id": "76253311a6046a86",
+      "parent_id": "128b06ec14785060",
+      "message": "epoch 20",
+      "timestamp": "2026-04-16T23:44:15.410924+00:00",
+      "metadata": {
+        "epoch": 20,
+        "loss": 0.184324,
+        "acc": 0.909091
+      }
+    },
+    {
+      "commit_id": "09cf27e9bbb5cff2",
+      "parent_id": "76253311a6046a86",
+      "message": "epoch 30",
+      "timestamp": "2026-04-16T23:44:15.578754+00:00",
+      "metadata": {
+        "epoch": 30,
+        "loss": 0.012029,
+        "acc": 1.0
+      }
+    },
+    {
+      "commit_id": "ac71259db538e372",
+      "parent_id": "09cf27e9bbb5cff2",
+      "message": "epoch 10",
+      "timestamp": "2026-04-16T23:58:34.827578+00:00",
+      "metadata": {
+        "epoch": 10,
+        "loss": 0.419729,
+        "acc": 0.818182
+      }
+    },
+    {
+      "commit_id": "976cf134bb0b2425",
+      "parent_id": "ac71259db538e372",
+      "message": "epoch 20",
+      "timestamp": "2026-04-16T23:58:34.861470+00:00",
+      "metadata": {
+        "epoch": 20,
+        "loss": 0.221693,
+        "acc": 0.909091
+      }
+    },
+    {
+      "commit_id": "fc623dc0a1e0ff5b",
+      "parent_id": "976cf134bb0b2425",
+      "message": "epoch 30",
+      "timestamp": "2026-04-16T23:58:34.903885+00:00",
+      "metadata": {
+        "epoch": 30,
+        "loss": 0.069404,
+        "acc": 1.0
+      }
+    },
+    {
+      "commit_id": "b1d41dee7c52b9cf",
+      "parent_id": "fc623dc0a1e0ff5b",
+      "message": "epoch 10",
+      "timestamp": "2026-04-17T00:07:20.774246+00:00",
+      "metadata": {
+        "epoch": 10,
+        "loss": 0.478858,
+        "acc": 0.818182
+      }
+    },
+    {
+      "commit_id": "4f3bfe4292d85fd7",
+      "parent_id": "b1d41dee7c52b9cf",
+      "message": "epoch 20",
+      "timestamp": "2026-04-17T00:07:20.808815+00:00",
+      "metadata": {
+        "epoch": 20,
+        "loss": 0.262147,
+        "acc": 0.909091
+      }
+    },
+    {
+      "commit_id": "dc28e9a568030f04",
+      "parent_id": "4f3bfe4292d85fd7",
+      "message": "epoch 30",
+      "timestamp": "2026-04-17T00:07:20.846581+00:00",
+      "metadata": {
+        "epoch": 30,
+        "loss": 0.138283,
+        "acc": 0.909091
+      }
+    },
+    {
+      "commit_id": "784cc8bc1d993974",
+      "parent_id": "dc28e9a568030f04",
+      "message": "epoch 10",
+      "timestamp": "2026-04-17T00:07:28.988524+00:00",
+      "metadata": {
+        "epoch": 10,
+        "loss": 0.482704,
+        "acc": 0.818182
+      }
+    },
+    {
+      "commit_id": "16056ac25825e515",
+      "parent_id": "784cc8bc1d993974",
+      "message": "epoch 20",
+      "timestamp": "2026-04-17T00:07:29.022324+00:00",
+      "metadata": {
+        "epoch": 20,
+        "loss": 0.251292,
+        "acc": 0.909091
+      }
+    },
+    {
+      "commit_id": "ccf34237dd0669e0",
+      "parent_id": "16056ac25825e515",
+      "message": "epoch 30",
+      "timestamp": "2026-04-17T00:07:29.082487+00:00",
+      "metadata": {
+        "epoch": 30,
+        "loss": 0.082754,
+        "acc": 1.0
+      }
+    },
+    {
+      "commit_id": "0ef749aed527b221",
+      "parent_id": "ccf34237dd0669e0",
+      "message": "epoch 10",
+      "timestamp": "2026-04-17T00:07:37.462300+00:00",
+      "metadata": {
+        "epoch": 10,
+        "loss": 0.416644,
+        "acc": 0.818182
+      }
+    },
+    {
+      "commit_id": "c48672e58725ac60",
+      "parent_id": "0ef749aed527b221",
+      "message": "epoch 20",
+      "timestamp": "2026-04-17T00:07:37.502935+00:00",
+      "metadata": {
+        "epoch": 20,
+        "loss": 0.257798,
+        "acc": 0.909091
+      }
+    },
+    {
+      "commit_id": "bdab3b4e0e51888d",
+      "parent_id": "c48672e58725ac60",
+      "message": "epoch 30",
+      "timestamp": "2026-04-17T00:07:37.552116+00:00",
+      "metadata": {
+        "epoch": 30,
+        "loss": 0.187484,
+        "acc": 0.818182
+      }
+    },
+    {
+      "commit_id": "0d173acfa1f943ce",
+      "parent_id": "bdab3b4e0e51888d",
+      "message": "epoch 10",
+      "timestamp": "2026-04-17T00:07:46.011877+00:00",
+      "metadata": {
+        "epoch": 10,
+        "loss": 0.407469,
+        "acc": 0.818182
+      }
+    },
+    {
+      "commit_id": "29b3f2f771b2895b",
+      "parent_id": "0d173acfa1f943ce",
+      "message": "epoch 20",
+      "timestamp": "2026-04-17T00:07:46.043067+00:00",
+      "metadata": {
+        "epoch": 20,
+        "loss": 0.205545,
+        "acc": 0.909091
+      }
+    },
+    {
+      "commit_id": "bed911defae2ed9a",
+      "parent_id": "29b3f2f771b2895b",
+      "message": "epoch 30",
+      "timestamp": "2026-04-17T00:07:46.080086+00:00",
+      "metadata": {
+        "epoch": 30,
+        "loss": 0.079678,
+        "acc": 1.0
+      }
+    },
+    {
+      "commit_id": "33b1d1eb284368e0",
+      "parent_id": "bed911defae2ed9a",
+      "message": "epoch 10",
+      "timestamp": "2026-04-17T00:07:54.406601+00:00",
+      "metadata": {
+        "epoch": 10,
+        "loss": 0.513368,
+        "acc": 0.818182
+      }
+    },
+    {
+      "commit_id": "3d943b9c482cfd83",
+      "parent_id": "33b1d1eb284368e0",
+      "message": "epoch 20",
+      "timestamp": "2026-04-17T00:07:54.440141+00:00",
+      "metadata": {
+        "epoch": 20,
+        "loss": 0.157115,
+        "acc": 0.909091
+      }
+    },
+    {
+      "commit_id": "49c3e029f40bdd45",
+      "parent_id": "3d943b9c482cfd83",
+      "message": "epoch 30",
+      "timestamp": "2026-04-17T00:07:54.473391+00:00",
+      "metadata": {
+        "epoch": 30,
+        "loss": 0.013154,
+        "acc": 1.0
+      }
+    },
+    {
+      "commit_id": "55733dc6f1b08ba7",
+      "parent_id": "49c3e029f40bdd45",
+      "message": "epoch 10",
+      "timestamp": "2026-04-17T00:14:29.403387+00:00",
+      "metadata": {
+        "epoch": 10,
+        "loss": 0.38038,
+        "acc": 0.818182
+      }
+    },
+    {
+      "commit_id": "72f519672b7ca025",
+      "parent_id": "55733dc6f1b08ba7",
+      "message": "epoch 20",
+      "timestamp": "2026-04-17T00:14:29.438714+00:00",
+      "metadata": {
+        "epoch": 20,
+        "loss": 0.208943,
+        "acc": 0.909091
+      }
+    },
+    {
+      "commit_id": "8feaef89eb57272d",
+      "parent_id": "72f519672b7ca025",
+      "message": "epoch 30",
+      "timestamp": "2026-04-17T00:14:29.478340+00:00",
+      "metadata": {
+        "epoch": 30,
+        "loss": 0.060138,
+        "acc": 1.0
+      }
+    },
+    {
+      "commit_id": "6ae1f0a07503ec72",
+      "parent_id": "8feaef89eb57272d",
+      "message": "epoch 10",
+      "timestamp": "2026-04-17T00:18:53.103589+00:00",
+      "metadata": {
+        "epoch": 10,
+        "loss": 0.514408,
+        "acc": 0.818182
+      }
+    },
+    {
+      "commit_id": "75dab3803c535e39",
+      "parent_id": "6ae1f0a07503ec72",
+      "message": "epoch 20",
+      "timestamp": "2026-04-17T00:18:53.136897+00:00",
+      "metadata": {
+        "epoch": 20,
+        "loss": 0.284644,
+        "acc": 0.909091
+      }
+    },
+    {
+      "commit_id": "514aea2236f6cab7",
+      "parent_id": "75dab3803c535e39",
+      "message": "epoch 30",
+      "timestamp": "2026-04-17T00:18:53.174423+00:00",
+      "metadata": {
+        "epoch": 30,
+        "loss": 0.147437,
+        "acc": 0.909091
+      }
+    },
+    {
+      "commit_id": "66596e2724418cbc",
+      "parent_id": "514aea2236f6cab7",
+      "message": "epoch 10",
+      "timestamp": "2026-04-17T03:02:35.966835+00:00",
+      "metadata": {
+        "epoch": 10,
+        "loss": 0.420306,
+        "acc": 0.818182
+      }
+    },
+    {
+      "commit_id": "599dd3560f4bebb1",
+      "parent_id": "66596e2724418cbc",
+      "message": "epoch 20",
+      "timestamp": "2026-04-17T03:02:35.996987+00:00",
+      "metadata": {
+        "epoch": 20,
+        "loss": 0.166295,
+        "acc": 0.909091
+      }
+    },
+    {
+      "commit_id": "4862945afe6ac5b8",
+      "parent_id": "599dd3560f4bebb1",
+      "message": "epoch 30",
+      "timestamp": "2026-04-17T03:02:36.038150+00:00",
+      "metadata": {
+        "epoch": 30,
+        "loss": 0.044718,
+        "acc": 1.0
+      }
+    },
+    {
+      "commit_id": "11b22d1bd080596c",
+      "parent_id": "4862945afe6ac5b8",
+      "message": "epoch 10",
+      "timestamp": "2026-05-07T01:50:38.792323+00:00",
+      "metadata": {
+        "epoch": 10,
+        "loss": 3.761257,
+        "task": "esol",
+        "problem_type": "regression",
+        "rmse": 1.939396
+      }
+    },
+    {
+      "commit_id": "d9432d0071755940",
+      "parent_id": "11b22d1bd080596c",
+      "message": "epoch 20",
+      "timestamp": "2026-05-07T01:50:41.938773+00:00",
+      "metadata": {
+        "epoch": 20,
+        "loss": 3.499785,
+        "task": "esol",
+        "problem_type": "regression",
+        "rmse": 1.870771
+      }
+    },
+    {
+      "commit_id": "17730d560ea8237d",
+      "parent_id": "d9432d0071755940",
+      "message": "epoch 30",
+      "timestamp": "2026-05-07T01:50:45.045910+00:00",
+      "metadata": {
+        "epoch": 30,
+        "loss": 3.218229,
+        "task": "esol",
+        "problem_type": "regression",
+        "rmse": 1.793942
+      }
+    },
+    {
+      "commit_id": "2562055c3b8c1617",
+      "parent_id": "17730d560ea8237d",
+      "message": "epoch 10",
+      "timestamp": "2026-05-07T01:59:56.252036+00:00",
+      "metadata": {
+        "epoch": 10,
+        "loss": 0.404316,
+        "task": "contains_hetero_atom",
+        "problem_type": "classification",
+        "acc": 0.818182
+      }
+    },
+    {
+      "commit_id": "08b08590b5764306",
+      "parent_id": "2562055c3b8c1617",
+      "message": "epoch 20",
+      "timestamp": "2026-05-07T01:59:56.284363+00:00",
+      "metadata": {
+        "epoch": 20,
+        "loss": 0.224966,
+        "task": "contains_hetero_atom",
+        "problem_type": "classification",
+        "acc": 0.909091
+      }
+    },
+    {
+      "commit_id": "ad9911fed0df3135",
+      "parent_id": "08b08590b5764306",
+      "message": "epoch 30",
+      "timestamp": "2026-05-07T01:59:56.320250+00:00",
+      "metadata": {
+        "epoch": 30,
+        "loss": 0.052249,
+        "task": "contains_hetero_atom",
+        "problem_type": "classification",
+        "acc": 1.0
+      }
+    },
+    {
+      "commit_id": "af47248ad834df43",
+      "parent_id": "ad9911fed0df3135",
+      "message": "epoch 1",
+      "timestamp": "2026-05-30T00:47:03.402059+00:00",
+      "metadata": {
+        "epoch": 1,
+        "loss": 0.8364,
+        "task": "contains_hetero_atom",
+        "problem_type": "classification",
+        "acc": 0.272727
+      }
+    },
+    {
+      "commit_id": "1f1408b9d0c88492",
+      "parent_id": "af47248ad834df43",
+      "message": "epoch 2",
+      "timestamp": "2026-05-30T00:47:03.408607+00:00",
+      "metadata": {
+        "epoch": 2,
+        "loss": 0.672172,
+        "task": "contains_hetero_atom",
+        "problem_type": "classification",
+        "acc": 0.545455
+      }
+    },
+    {
+      "commit_id": "419345f9de75798e",
+      "parent_id": "1f1408b9d0c88492",
+      "message": "epoch 3",
+      "timestamp": "2026-05-30T00:47:03.418172+00:00",
+      "metadata": {
+        "epoch": 3,
+        "loss": 0.672989,
+        "task": "contains_hetero_atom",
+        "problem_type": "classification",
+        "acc": 0.636364
+      }
+    },
+    {
+      "commit_id": "026565e73fb58111",
+      "parent_id": "419345f9de75798e",
+      "message": "epoch 10",
+      "timestamp": "2026-06-14T06:34:31.727577+00:00",
+      "metadata": {
+        "epoch": 10,
+        "loss": 0.375723,
+        "task": "contains_hetero_atom",
+        "problem_type": "classification",
+        "acc": 0.818182
+      }
+    },
+    {
+      "commit_id": "25f72660c374c266",
+      "parent_id": "026565e73fb58111",
+      "message": "epoch 20",
+      "timestamp": "2026-06-14T06:34:31.756775+00:00",
+      "metadata": {
+        "epoch": 20,
+        "loss": 0.085832,
+        "task": "contains_hetero_atom",
+        "problem_type": "classification",
+        "acc": 1.0
+      }
+    },
+    {
+      "commit_id": "0e365075621216a2",
+      "parent_id": "25f72660c374c266",
+      "message": "epoch 30",
+      "timestamp": "2026-06-14T06:34:31.791508+00:00",
+      "metadata": {
+        "epoch": 30,
+        "loss": 0.014591,
+        "task": "contains_hetero_atom",
+        "problem_type": "classification",
+        "acc": 1.0
+      }
+    },
+    {
+      "commit_id": "94425f703baf04ee",
+      "parent_id": "0e365075621216a2",
+      "message": "epoch 10",
+      "timestamp": "2026-09-07T07:08:19.806370+00:00",
+      "metadata": {
+        "epoch": 10,
+        "loss": 0.460987,
+        "task": "contains_hetero_atom",
+        "problem_type": "classification",
+        "acc": 0.818182
+      }
+    },
+    {
+      "commit_id": "27d888219b309b6c",
+      "parent_id": "94425f703baf04ee",
+      "message": "epoch 20",
+      "timestamp": "2026-09-07T07:08:19.836887+00:00",
+      "metadata": {
+        "epoch": 20,
+        "loss": 0.228973,
+        "task": "contains_hetero_atom",
+        "problem_type": "classification",
+        "acc": 0.909091
+      }
+    },
+    {
+      "commit_id": "1454565a509f6de5",
+      "parent_id": "27d888219b309b6c",
+      "message": "epoch 30",
+      "timestamp": "2026-09-07T07:08:19.866504+00:00",
+      "metadata": {
+        "epoch": 30,
+        "loss": 0.044086,
+        "task": "contains_hetero_atom",
+        "problem_type": "classification",
+        "acc": 1.0
+      }
+    },
+    {
+      "commit_id": "f1a9bc9f242dead2",
+      "parent_id": "1454565a509f6de5",
+      "message": "epoch 10",
+      "timestamp": "2026-09-07T07:29:14.261388+00:00",
+      "metadata": {
+        "epoch": 10,
+        "loss": 3.499346,
+        "task": "esol",
+        "problem_type": "regression",
+        "rmse": 1.870654
+      }
+    },
+    {
+      "commit_id": "82c16b115da5046f",
+      "parent_id": "f1a9bc9f242dead2",
+      "message": "epoch 20",
+      "timestamp": "2026-09-07T07:29:17.202189+00:00",
+      "metadata": {
+        "epoch": 20,
+        "loss": 3.02079,
+        "task": "esol",
+        "problem_type": "regression",
+        "rmse": 1.738042
+      }
+    },
+    {
+      "commit_id": "2045783cc3c8ee78",
+      "parent_id": "82c16b115da5046f",
+      "message": "epoch 30",
+      "timestamp": "2026-09-07T07:29:20.132027+00:00",
+      "metadata": {
+        "epoch": 30,
+        "loss": 2.773043,
+        "task": "esol",
+        "problem_type": "regression",
+        "rmse": 1.665246
+      }
+    }
+  ]
+}
